@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world! This will be a test API");
+#[tokio::main]
+async fn main() {
+    println!("Waiting and listening");
 }
